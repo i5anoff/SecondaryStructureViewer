@@ -25,7 +25,7 @@ var connectionMode = false,
 var activatedNode = null;
 var availableComps = [];
 
-var domainName = "localhost:5000";
+var domainName = "https://ancient-sea-58779.herokuapp.com/";
 
 //NOTE: config values refer to indeces in global preset, not actual numeric values
 
