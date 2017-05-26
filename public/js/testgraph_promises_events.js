@@ -25,6 +25,8 @@ var connectionMode = false,
 var activatedNode = null;
 var availableComps = [];
 
+var domainName = "localhost:5000";
+
 //NOTE: config values refer to indeces in global preset, not actual numeric values
 
 var config = {
@@ -259,15 +261,16 @@ Promise.all(loadingPromises)
 				'Content-Type': 'application/json'
 			},
 			body: JSON.stringify(visState)
-		}).then((res) => {
-			//console.log(res);
-			return res;
 		}).then(res => res.json()).then(function(res){
 			//console.log("recevied response");
 			console.log(res);
 			d3.select("#utils").append('div')
 				.style("font-family",fontz[config.font])
-				.text("load/" + res.id)
+				.style("font-size","12px")
+				.style("display","inline")
+				.style("padding-left","10px")
+				.style("color","#D3D3D3")
+				.text("share this view at:   " + domainName + "/load/" + res.id)
 			//console.log(res);
 		})
 	})
