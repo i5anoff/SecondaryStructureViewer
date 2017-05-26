@@ -1,0 +1,194 @@
+body {
+	background-color: #333;
+}
+
+.node {
+    /*fill: #000;*/
+    stroke: #333;
+    stroke-width: 1px;
+}
+
+.nodeText {
+	fill: #999;
+}
+
+#utils {
+	padding-bottom: 1em;
+}
+
+.datatext{
+	font-size: 10px;
+}
+
+
+.link.phos {
+	stroke: #777;
+	stroke-width: 2px;
+}
+
+.link.comp {
+	stroke: #777;
+	stroke-width: 2px;
+	stroke-dasharray: 2;
+}
+i {
+	color: white;
+}
+
+#sequence{
+	/*margin-top: 2.5px;*/
+	/*margin-bottom: 2.5px;*/
+	/*padding-top: 1em;*/
+	/*padding-bottom: 1em;*/
+	/*overflow: hidden;*/
+	/*display: inline;*/
+	line-height: 35px;
+
+	/*display: table-cell;*/
+    /*vertical-align: middle;*/
+	/*height: 50px;*/
+	/*min-height: 30px;*/
+	padding: none;
+	/*background-color: blue;*/
+
+}
+
+span {
+	line-height: 23px;
+	height: 40px;
+}
+#dbn{
+	/*margin-top: 2.5px;*/
+	/*margin-bottom: 2.5px;*/
+	/*padding-top: 2em;*/
+	/*padding-bottom: 2em;*/
+	/*overflow: hidden;*/
+	/*display: inline-block;*/
+	line-height: 35px;
+	/*display: table-cell;*/
+    /*vertical-align: middle;*/
+	/*height: 50px;*/
+	/*min-height: 30px;*/
+	padding: none;
+	color: #999;
+	/*background-color: red;*/
+}
+#topcontainer{
+	/*line-height: 200px;*/
+	margin-top: 10px;
+	margin-left: 10px;
+	overflow: visible;
+	/*width: 200px;*/
+	height: 120px;
+	cursor: pointer;
+	/*background-color: green;*/
+	/*display: table;*/
+}
+#paintOptions{
+	margin-top: 5px;
+	background-color: #444;
+	height: 120px;
+	width: 370px;
+	/*column-count: 2;*/
+	
+
+	/*display: table;*/
+}
+#colorWrapper{
+	padding-top: 10px;
+	padding-left: 10px;
+	display: grid;
+	float: left;
+	grid-template-columns: 60px 60px;
+}
+#fontWrapper{
+	padding-top: 10px;
+	padding-left: 15px;
+	display: grid;
+	float: left;
+	/*grid-template-columns: 60px 60px;*/
+}
+#nodeSizeWrapper{
+	padding-top: 10px;
+	padding-left: 25px;
+	display: grid;
+	float: left;
+	width: 60px;
+	/*grid-template-columns: 60px 60px;*/
+}
+#linkWidthWrapper{
+	padding-top: 10px;
+	padding-left: 5px;
+	display: grid;
+	float: left;
+	width: 70px;
+	/*grid-template-columns: 60px 60px;*/
+}
+.colorbox span{
+	display: inline-block;
+	width: 10px;
+	height: 20px;
+
+}
+
+.colorbox span.label{
+	display: inline-block;
+	width: 45px;
+	height: 20px;
+	font-size: 10px;
+	color: #D3D3D3;
+	vertical-align: middle;
+	line-height: 20px;
+}
+.paintrow{
+	display: table-row;
+}
+.colorbox{
+	/*display: table-cell;*/
+	/*width: 75px !important;*/
+	height: 25px;
+
+}
+.fontbox{
+	height: 25px;
+}
+.nodebox{
+	height: 25px;
+}
+.linkbox{
+	height: 25px;
+}
+.colorbox.active{
+
+}
+#connectionMode{
+	color: #D3D3D3;
+	font-size: 11px;
+}
+#linkLine{
+	stroke: #777;
+	stroke-width: 2px;
+	stroke-dasharray: 2;
+}
+.merged{
+	stroke: #777;
+	stroke-width: 2px;
+	stroke-dasharray: 2;
+}
+
+svg#graph {
+	cursor: pointer;
+	position: absolute;
+	top: 270px;
+	left: 200px;
+}
+
+svg.nodeSizeSvg, svg.linkWidthSvg{
+	position: relative;
+	top: 0px;
+}
+
+br {
+   /*display: block;*/
+   line-height:5px;
+}

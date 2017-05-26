@@ -1,0 +1,34 @@
+{
+  "name": "autodesk_dna",
+  "version": "1.0.0",
+  "description": "autodesk app",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.14.0",
+    "fs": "0.0.2",
+    "jade": "^1.11.0",
+    "leveldown": "^1.7.0",
+    "levelup": "^1.3.7",
+    "multer": "^1.1.0",
+    "querystring": "^0.2.0",
+    "redis": "^2.7.1",
+    "stylus": "^0.54.5",
+    "underscore": "^1.8.3",
+    "uuid": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/invizibility/AutodeskDNA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/invizibility/AutodeskDNA/issues"
+  }
+}
