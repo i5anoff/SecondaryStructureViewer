@@ -10,6 +10,12 @@ body {
 
 .nodeText {
 	fill: #999;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #utils {
@@ -50,6 +56,12 @@ i {
 	/*min-height: 30px;*/
 	padding: none;
 	/*background-color: blue;*/
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
 }
 
@@ -72,6 +84,12 @@ span {
 	padding: none;
 	color: #999;
 	/*background-color: red;*/
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 #topcontainer{
 	/*line-height: 200px;*/
