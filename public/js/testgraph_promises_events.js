@@ -270,7 +270,7 @@ Promise.all(loadingPromises)
 				.style("display","inline")
 				.style("padding-left","10px")
 				.style("color","#D3D3D3")
-				.text("share this view at:   " + domainName + "/load/" + res.id)
+				.text("share this view at:   " + domainName + "load/" + res.id)
 			//console.log(res);
 		})
 	})
