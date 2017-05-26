@@ -53,7 +53,7 @@ app.post('/share', function(req, res){
 })
 
 // listen on port 5000 for connections
-app.listen(5000, function() {
+app.listen(process.env.PORT || 5000, function() {
 	console.log('listening on port 5000');
 })
 
