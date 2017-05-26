@@ -179,7 +179,7 @@ span {
 svg#graph {
 	cursor: pointer;
 	position: absolute;
-	top: 270px;
+	top: 100px;
 	left: 200px;
 }
 
