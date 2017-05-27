@@ -8,7 +8,8 @@ Check it out here: https://ancient-sea-58779.herokuapp.com/
 ## Architecture + Functionality
 This application is built on node.js with the express application framework. Visualization is handled by D3.js. 
 Upon loading the main URL, a default dataset is visualized using a force directed physics simulation to find an close-to-planar layout for the sequence as described by the DBN. This simulation converges deterministically for a given DBN, and further improvements to graph planarity could be made through introduction of a genetic algorithm.
-Users can tinker with the node locations and add their own connections. Users can also choose between different color schemes, fonts, node sizes, and link sizes. Colors are constrained to 8 palettes chosen from ColorBrewer which describe 5-level diverging data. Each palette provides 2 pairs of colors for each complementary pair of bases (A&T, G&C), and one ambiguous color for the IUPAC 'any base' designation (N). 6 out of the 8 available color schemes are colorblind safe.
+
+Users can tinker with the node locations and add their own connections, and edit the sequence + DBN to view their own data. Users can also choose between different color schemes, fonts, node sizes, and link sizes. Colors are constrained to 8 palettes chosen from ColorBrewer which describe 5-level diverging data. Each palette provides 2 pairs of colors for each complementary pair of bases (A&T, G&C), and one ambiguous color for the IUPAC 'any base' designation (N). 6 out of the 8 available color schemes are colorblind safe.
 
 Furthermore, users can also freeze the currently viewed state to JSON (including chosen colors, fonts, node sizes, and link sizes), and are given a sharing URL to share this unique state. This sharing is handled on the backend by LevelDB, which stores the states as a value associated with a UUID key; the UUID becomes the unique URL slug.
 
